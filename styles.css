@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
 *{
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(172, 172, 172);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141e28;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+}
+
+h1 {
+    font-size: 50px;
+    color: orangered;
+    font-family: 'Anton', sans-serif;
 }
 
 header {
@@ -14,9 +24,12 @@ header {
 }
 
 li {
+    list-style: none;
     padding-bottom: 5px;
     padding-top: 5px;
     font-size: 25px;
+    color: orangered;
+    font-family: sans-serif;
 }
 
 ul {
@@ -24,7 +37,10 @@ ul {
     flex-direction: column;
 } 
 
+
 span, p {
+    font-family: sans-serif;
     font-size: 20px;
+    padding: 10px;
 }
 
